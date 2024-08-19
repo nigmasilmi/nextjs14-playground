@@ -1,1 +1,2 @@
 [Learn NextJS docs](https://nextjs.org/learn?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=home)
+[Styling in NextJS](https://nextjs.org/docs/app/building-your-application/styling)
