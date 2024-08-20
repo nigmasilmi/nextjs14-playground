@@ -11,21 +11,13 @@ export default function Home() {
         </div>
 
         <div className={classes.hero}>
-          <h1 style={{ color: "white", textAlign: "center" }}>
-            Time to get started!
-          </h1>
+          <h1>Next level food</h1>
           <p>Test and share</p>
-        </div>
-        <div className={classes.cta}>
-          <p>
+          <div className={classes.cta}>
             <Link href="/meals">Meals</Link>
-          </p>
-          <p>
             <Link href="/meals">Meals</Link>
-          </p>
-          <p>
             <Link href="/community">Community</Link>
-          </p>
+          </div>
         </div>
       </header>
     </>
