@@ -1,7 +1,12 @@
-import React from "react";
+
 
 const MealDetailsPage = () => {
-  return <h1>MealDetailsPage</h1>;
+  return (
+    <>
+      <header></header>
+      <main></main>
+    </>
+  );
 };
 
 export default MealDetailsPage;

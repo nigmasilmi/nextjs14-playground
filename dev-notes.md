@@ -2,3 +2,4 @@
 [Styling in NextJS](https://nextjs.org/docs/app/building-your-application/styling)
 [Client Components](https://nextjs.org/docs/app/building-your-application/rendering/client-components)
 [usePathname](https://nextjs.org/docs/app/api-reference/functions/use-pathname)
+[Image fill prop](https://nextjs.org/docs/pages/api-reference/components/image#fill)
