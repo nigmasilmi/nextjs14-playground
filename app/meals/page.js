@@ -1,8 +1,14 @@
 import Link from "next/link";
 import classes from "./page.module.css";
 import MealsGrid from "@/components/meals/meals-grid";
+import { getMeals } from "@/lib/getMeals";
 
-const MealsPage = () => {
+// server components can be converted in async functions
+const MealsPage = async () => {
+  // notice that there is no need to use useEffect or fetch
+  // check reference in dev notes for more details
+  const meals = await getMeals();
+
   return (
     <>
       <header className={classes.header}>
@@ -16,7 +22,7 @@ const MealsPage = () => {
         </p>
       </header>
       <main className={classes.main}>
-        <MealsGrid meals={[]} />
+        <MealsGrid meals={meals} />
       </main>
     </>
   );
