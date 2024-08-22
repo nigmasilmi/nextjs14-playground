@@ -5,3 +5,4 @@
 [Image fill prop](https://nextjs.org/docs/pages/api-reference/components/image#fill)
 [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
 [loading.js as a reserved file (name)](https://nextjs.org/docs/app/api-reference/file-conventions/loading)
+[all file conventions including error.js](https://nextjs.org/docs/app/api-reference/file-conventions)
