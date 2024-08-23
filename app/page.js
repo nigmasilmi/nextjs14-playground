@@ -15,7 +15,6 @@ export default function Home() {
           <p>Test and share</p>
           <div className={classes.cta}>
             <Link href="/meals">Meals</Link>
-            <Link href="/meals">Meals</Link>
             <Link href="/community">Community</Link>
           </div>
         </div>
