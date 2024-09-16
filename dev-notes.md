@@ -7,3 +7,4 @@
 - [loading.js as a reserved file (name)](https://nextjs.org/docs/app/api-reference/file-conventions/loading)
 - [all file conventions including error.js](https://nextjs.org/docs/app/api-reference/file-conventions)
 - [notFound() function](https://nextjs.org/docs/app/api-reference/functions/not-found)
+- [Server Actions and Mutations](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)

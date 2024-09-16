@@ -9,6 +9,7 @@ const ImagePicker = ({ label, name }) => {
 
   const handlePickClick = () => {
     inputRef.current.click();
+    console.log(inputRef.current)
   };
 
   const handleImagePicked = (e) => {
@@ -33,7 +34,7 @@ const ImagePicker = ({ label, name }) => {
       <div className={classes.controls}>
         <div className={classes.preview}>
           {!imagePicked && <p>No image picked yet</p>}
-          {imagePicked && <Image src={imagePicked} fill />}
+          {imagePicked && <Image src={imagePicked} fill alt="dummy" />}
         </div>
         <input
           className={classes.input}
